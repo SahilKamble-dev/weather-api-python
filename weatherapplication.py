@@ -32,7 +32,8 @@ def getWeather():
       #weather
         lat = location.latitude
         lon = location.longitude
-        api = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=3ecf4e4bb28047730bebba2605a259c1"
+        api_key = "YOUR_API_KEY"
+        api = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}"
         json_data = requests.get(api).json()
 
 
@@ -50,7 +51,7 @@ def getWeather():
         d.config(text=f"🌤 {description}")
         p.config(text=f"🔽 {pressure} hPa")
 
-    except Exception as e:
+        except Exception as e:
         messagebox.showerror("Error", f"Could not retrieve data:\n{e}")
 
 #search box
