@@ -25,9 +25,6 @@ This is a desktop-based Weather Application developed using Python and Tkinter. 
 
 ## 📷 Screenshots
 
-(Add your screenshots here)
-
-Example:
 ![Weather App](output.png)
 
 ---
