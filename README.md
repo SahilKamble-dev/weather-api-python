@@ -1,21 +1,21 @@
-# 🌦️ Weather Application (Python + Tkinter)
+#  Weather Application (Python + Tkinter)
 
-## 📌 Description
+## Description
 
 This is a desktop-based Weather Application developed using Python and Tkinter. The application fetches real-time weather data using an API and displays it in a simple and user-friendly graphical interface.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🌍 Search weather by city name
-* 🌡️ Displays temperature, humidity, and weather conditions
-* 🔄 Fetches real-time weather data using API
-* 🖥️ User-friendly GUI built with Tkinter
+*  Search weather by city name
+*  Displays temperature, humidity, and weather conditions
+*  Fetches real-time weather data using API
+*  User-friendly GUI built with Tkinter
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * Tkinter (GUI)
@@ -23,13 +23,13 @@ This is a desktop-based Weather Application developed using Python and Tkinter. 
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
 ![Weather App](output.png)
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. Clone the repository:
 
@@ -57,7 +57,7 @@ python weatherapplication.py
 
 ---
 
-## 🔑 API Key Setup
+##  API Key Setup
 
 1. Go to OpenWeather website and create a free account
 2. Generate your API key
@@ -69,7 +69,7 @@ api_key = "YOUR_API_KEY_HERE"
 5. Save the file and run the application
 
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 * Add weather icons
 * Improve UI design
@@ -77,12 +77,12 @@ api_key = "YOUR_API_KEY_HERE"
 
 ---
 
-## 🙌 Author
+##  Author
 
 **Sahil Kamble**
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
