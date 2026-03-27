@@ -28,7 +28,7 @@ This is a desktop-based Weather Application developed using Python and Tkinter. 
 (Add your screenshots here)
 
 Example:
-![Weather App](images/output.png)
+![Weather App](output.png)
 
 ---
 
