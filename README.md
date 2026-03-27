@@ -40,7 +40,7 @@ git clone https://github.com/your-SahilKamble-dev/weather-api-python.git
 2. Go to project folder:
 
 ```
-cd weather-app-python
+cd weather-api-python
 ```
 
 3. Install dependencies:
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 4. Run the app:
 
 ```
-python main.py
+python weatherapplication.py
 ```
 
 ---
