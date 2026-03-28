@@ -6,6 +6,8 @@ from timezonefinder import TimezoneFinder
 from datetime import datetime
 import requests
 import pytz
+import os
+from dotenv import load_dotenv
 
 root = tk.Tk()
 root.title("Weather App")
@@ -32,8 +34,9 @@ def getWeather():
       #weather
         lat = location.latitude
         lon = location.longitude
-        api_key = "YOUR_API_KEY"
-        api = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}"
+       load_dotenv()
+       api_key = os.getenv("API_KEY")
+       api = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}"
         json_data = requests.get(api).json()
 
 
